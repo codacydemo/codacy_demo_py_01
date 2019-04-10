@@ -1,4 +1,4 @@
-class #NAME#():
+class 20195110115151#():
     "This is an example class"
     a = 10
     def funct(self):
