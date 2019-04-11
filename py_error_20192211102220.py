@@ -1,4 +1,4 @@
-class 20195611105631():
+class C20191411111438():
     "This is an example class"
     a = 10
     def funct(self):
