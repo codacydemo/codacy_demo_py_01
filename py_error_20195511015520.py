@@ -1,4 +1,4 @@
-class C20192816092807():
+class C20194122114111():
     "This is an example class"
     a = 10
     @classmethod
