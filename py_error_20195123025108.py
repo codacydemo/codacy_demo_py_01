@@ -1,7 +1,8 @@
 class C20195123025108():
     "This is an example class"
     a = 10
-    def func(self):
+    @classmethod
+    def funct(self):
         print('Hello Example')
 
 # Output: 10
@@ -18,8 +19,8 @@ def GET(self):
     get_input = web.input()
     param1 = get_input['param1'] if 'param1' in get_input else None
     if (param1):
-        x = eval(param1)
-    return "I'm vulnerable"
+        x = ast.literal_eval(param1)
+    return "I'm not vulnerable"+x
 
 # CWE-759
 def storePassword(userName,Password):
