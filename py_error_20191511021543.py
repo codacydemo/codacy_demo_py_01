@@ -1,4 +1,4 @@
-class C20193922113928():
+class C20191511021543():
     "This is an example class"
     a = 10
     @classmethod
@@ -6,13 +6,13 @@ class C20193922113928():
         print('Hello Example')
 
 # Output: 10
-print(PythonExample.a)
+print(C20191511021543.a)
 
 # Output: <function MyClass.func at 0x0000000003079BF8>
-print(PythonExample.func)
+print(C20191511021543.func)
 
 # Output: 'This is my second class'
-print(PythonExample.__doc__)
+print(C20191511021543.__doc__)
 
 # Code Injection
 def GET(self):
