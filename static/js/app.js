@@ -7,11 +7,15 @@ function world() {
 
 function aVeryComplexMethod(isOk) {
     if (isOk) {
-        call(hello, function (sender) {
-            setTimeout(function () {
-                console.log(sender.caller);
-            }, 500);
-        });
+        if(true){
+            for(i = 0; i < 10; i++){
+                call(hello, function (sender) {
+                    setTimeout(function () {
+                        console.log(sender.caller);
+                    }, 500);
+                });
+            }
+        }
     }
 }
 
