@@ -1,3 +1,5 @@
+import lxml
+
 from django.http import HttpResponse
 
 
