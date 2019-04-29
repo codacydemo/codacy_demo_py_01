@@ -16,3 +16,10 @@ def other_index(request):
                 print("To infinity and beyond! We're getting close, on %d now!" % (y))
             y += 1  
     return HttpResponse("Hello, world. You're at the polls index.")
+
+def wrong_method(condition):
+    while condition:
+        try:
+            wrong_method(False)
+        except Exception:
+            continue
