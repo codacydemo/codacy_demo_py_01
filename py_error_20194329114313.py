@@ -1,9 +1,10 @@
-import lxml
+/#mport lxml
 
 class C20194329114313():
     "This is an example class"
     a = 10
-    def func(self):
+    @classmethod
+    def funct(self):
         print('Hello Example')
 
 # Output: 10
@@ -20,8 +21,8 @@ def GET(self):
     get_input = web.input()
     param1 = get_input['param1'] if 'param1' in get_input else None
     if (param1):
-        x = eval(param1)
-    return "I'm vulnerable"
+        x = ast.literal_eval(param1)
+    return "I'm not vulnerable"+x
 
 # CWE-759
 def storePassword(userName,Password):
@@ -32,10 +33,9 @@ def storePassword(userName,Password):
     # UpdateUserLogin returns True on success, False otherwise
     return updateUserLogin(userName,hashedPassword)
 
-
 def calc(number,times):
-    program = 'a = 5\nb=10\nprint("Sum =", a+b)'
-    exec(program)
+    print("Sum =", a+b)
+    //no need for exec
     for x in range(0, 3):
         print("We're on time %d" % (x))
         y = 1
