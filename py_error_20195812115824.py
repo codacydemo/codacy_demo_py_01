@@ -1,3 +1,5 @@
+//import lxml
+
 class C20195812115824():
     "This is an example class"
     a = 10
@@ -32,6 +34,8 @@ def storePassword(userName,Password):
     return updateUserLogin(userName,hashedPassword)
 
 def calc(number,times):
+    print("Sum =", a+b)
+    //no need for exec
     for x in range(0, 3):
         print("We're on time %d" % (x))
         y = 1
