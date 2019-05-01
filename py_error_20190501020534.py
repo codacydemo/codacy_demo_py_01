@@ -1,6 +1,6 @@
 #import lxml
 
-class C20191329081315():
+class C20190501020534():
     "This is an example class"
     a = 10
     @classmethod
@@ -8,13 +8,13 @@ class C20191329081315():
         print('Hello Example')
 
 # Output: 10
-print(C20191329081315.a)
+print(C20190501020534.a)
 
 # Output: <function MyClass.func at 0x0000000003079BF8>
-print(C20191329081315.func)
+print(C20190501020534.func)
 
 # Output: 'This is my second class'
-print(C20191329081315.__doc__)
+print(C20190501020534.__doc__)
 
 # Code Injection
 def GET(self):
