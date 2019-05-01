@@ -1,4 +1,6 @@
-class C20190715100757():
+/#mport lxml
+
+class C20195812115824():
     "This is an example class"
     a = 10
     @classmethod
@@ -6,13 +8,13 @@ class C20190715100757():
         print('Hello Example')
 
 # Output: 10
-print(PythonExample.a)
+print(C20195812115824.a)
 
 # Output: <function MyClass.func at 0x0000000003079BF8>
-print(PythonExample.func)
+print(C20195812115824.func)
 
 # Output: 'This is my second class'
-print(PythonExample.__doc__)
+print(C20195812115824.__doc__)
 
 # Code Injection
 def GET(self):
@@ -30,3 +32,15 @@ def storePassword(userName,Password):
 
     # UpdateUserLogin returns True on success, False otherwise
     return updateUserLogin(userName,hashedPassword)
+
+def calc(number,times):
+    print("Sum =", a+b)
+    //no need for exec
+    for x in range(0, 3):
+        print("We're on time %d" % (x))
+        y = 1
+        while True:
+            if(y%2 ==0):
+                print("To infinity and beyond! We're getting close, on %d now!" % (y))
+            y += 1
+    return number*times
