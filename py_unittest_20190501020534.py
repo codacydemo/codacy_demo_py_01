@@ -1,7 +1,4 @@
-import datetime
-
 from django.test import TestCase
-from django.utils import timezone
 
 from py_error_20190501020534 import C20190501020534
 
