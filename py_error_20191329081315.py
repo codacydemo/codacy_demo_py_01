@@ -1,4 +1,4 @@
-/#mport lxml
+#import lxml
 
 class C20191329081315():
     "This is an example class"
@@ -35,7 +35,7 @@ def storePassword(userName,Password):
 
 def calc(number,times):
     print("Sum =", a+b)
-    //no need for exec
+    #no need for exec
     for x in range(0, 3):
         print("We're on time %d" % (x))
         y = 1
