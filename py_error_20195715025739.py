@@ -4,8 +4,11 @@ class C20195715025739():
     "This is an example class"
     a = 10
     @classmethod
-    def funct(self):
+    def func(self):
         print('Hello Example')
+    @classmethod
+    def calc(self,number,times):
+        return number*times
 
 # Output: 10
 print(C20195715025739.a)
@@ -33,7 +36,7 @@ def storePassword(userName,Password):
     # UpdateUserLogin returns True on success, False otherwise
     return updateUserLogin(userName,hashedPassword)
 
-def calc(number,times):
+def calc_old_thing(number,times):
     print("Sum =", a+b)
     #no need for exec
     for x in range(0, 3):

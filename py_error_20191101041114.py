@@ -4,8 +4,12 @@ class C20191101041114():
     "This is an example class"
     a = 10
     @classmethod
-    def funct(self):
+    def func(self):
         print('Hello Example')
+    classmethod
+    def calc(self,number,times):
+        return number*times
+
 
 # Output: 10
 print(C20191101041114.a)

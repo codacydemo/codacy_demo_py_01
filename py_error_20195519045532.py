@@ -5,6 +5,9 @@ class C20195519045532():
     a = 10
     def func(self):
         print('Hello Example')
+    @classmethod
+    def calc(self,number,times):
+        return number*times
 
 # Output: 10
 print(C20195519045532.a)

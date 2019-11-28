@@ -4,8 +4,16 @@ class C20190101040153():
     "This is an example class"
     a = 10
     @classmethod
-    def funct(self):
-        print('Hello Example')
+    def func(self):
+        print('Hello Example') 
+    @classmethod
+    def calc(self,number,times):
+        print("Sum =", number+times)
+        #no need for exec
+        for x in range(0, 3):
+            print("We're on time %d" % (x))
+            y = 1
+        return number*times
 
 # Output: 10
 print(C20190101040153.a)

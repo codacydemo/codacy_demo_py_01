@@ -6,12 +6,15 @@ class C20190401040458():
     @classmethod
     def funct(self):
         print('Hello Example')
+    @classmethod
+    def calc(self,number,times):
+        return number*times
 
 # Output: 10
 print(C20190401040458.a)
 
 # Output: <function MyClass.func at 0x0000000003079BF8>
-print(C20190401040458.func)
+print(C20190401040458.funct)
 
 # Output: 'This is my second class'
 print(C20190401040458.__doc__)
