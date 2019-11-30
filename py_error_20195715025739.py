@@ -37,7 +37,7 @@ def storePassword(userName,Password):
     return updateUserLogin(userName,hashedPassword)
 
 def calc_old_thing(number,times):
-    print("Sum =", a+b)
+    print("Sum =", number+times)
     #no need for exec
     for x in range(0, 3):
         print("We're on time %d" % (x))
